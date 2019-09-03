@@ -4,8 +4,6 @@
     // code that runs when the page is fully loaded
     window.onload = function(){
 
-
-
         // getting document information
         let decrementButton = document.querySelector("#decrement");
         let incrementButton = document.querySelector("#increment");
@@ -25,6 +23,7 @@
 
             // update the counter
             counter.innerHTML = newCounterValue;
+            
         });
 
         decrementButton.addEventListener("click", function(){
@@ -42,7 +41,5 @@
 
         });
 
-
-
-    }
+    };
 })();
